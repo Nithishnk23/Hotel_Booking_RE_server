@@ -1,5 +1,5 @@
-import Hotel from "../models/hotel";
-import Order from "../models/order";
+import Hotel from "../models/hotel.js";
+import Order from "../models/order.js";
 import fs from "fs";
 
 export const create = async (req, res) => {

@@ -1,8 +1,8 @@
-import User from "../models/user";
+import User from "../models/user.js";
 import Stripe from "stripe";
 import queryString from "query-string";
-import Hotel from "../models/hotel";
-import Order from "../models/order";
+import Hotel from "../models/hotel.js";
+import Order from "../models/order.js";
 
 const stripe = Stripe(process.env.STRIPE_SECRET);
 

@@ -1,5 +1,5 @@
 import expressJwt from "express-jwt";
-import Hotel from "../models/hotel";
+import Hotel from "../models/hotel.js";
 
 // req.user
 export const requireSignin = expressJwt({
