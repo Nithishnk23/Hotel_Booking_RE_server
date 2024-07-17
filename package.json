@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
+
   "scripts": {
     "dev": "nodemon -r esm server.js",
     "start": "node server.js"
